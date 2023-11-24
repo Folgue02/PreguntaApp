@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/playContainerMargin"
+            android:layout_marginEnd="@dimen/playContainerMargin"
+            app:cardBackgroundColor="@color/playButtonBackground"
+            app:cardCornerRadius="@dimen/playContainerCornerRadius"
+            app:cardElevation="@dimen/defaultElevation"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="@dimen/playContainerPadding"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/helpTitle"
+                    android:textSize="@dimen/helpTitle"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="50dp"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="@dimen/bulletPointWidth"
+                            android:layout_height="@dimen/bulletPointWidth"
+                            android:src="@drawable/bullet_point"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/helpMsg"
+                            android:text="@string/help1"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="@dimen/helpMsgBetweenMargin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="@dimen/bulletPointWidth"
+                            android:layout_height="@dimen/bulletPointWidth"
+                            android:src="@drawable/bullet_point"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/helpMsg"
+                            android:text="@string/help2"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/helpMsgBetweenMargin"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="@dimen/bulletPointWidth"
+                            android:layout_height="@dimen/bulletPointWidth"
+                            android:src="@drawable/bullet_point"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/helpMsg"
+                            android:text="@string/help3"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:text="@string/helpSubtitle"
+                    android:textSize="@dimen/helpTitle"
+                    android:layout_marginVertical="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"/>
+            </LinearLayout> <!-- Container -->
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

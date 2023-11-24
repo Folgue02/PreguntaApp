@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="playButtonBackground">#EFDD8D</color>
+    <color name="playButtonForeground">#330F0A</color>
+    <color name="categoryBackground">#394F49</color>
+    <color name="categoryFont">#F4FDAF</color>
+</resources>

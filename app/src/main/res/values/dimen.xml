@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="quizIcon">150dp</dimen>
+    <dimen name="buttonIcon">40dp</dimen>
+    <dimen name="playButtonMargins">80dp</dimen>
+    <dimen name="playButtonInnerMargin">15dp</dimen>
+    <dimen name="playButtonBetweenMargin">10dp</dimen>
+    <dimen name="playButtonCornerRadius">20dp</dimen>
+    <dimen name="playMargin">70dp</dimen>
+    <dimen name="playCategoriesMargin">20dp</dimen>
+    <dimen name="bulletPointWidth">30dp</dimen>
+    <dimen name="helpTitle">50dp</dimen>
+    <dimen name="helpMsg">30dp</dimen>
+    <dimen name="playContainerMargin">50dp</dimen>
+    <dimen name="playContainerCornerRadius">30dp</dimen>
+    <dimen name="playContainerPadding">30dp</dimen>
+    <dimen name="helpMsgBetweenMargin">20dp</dimen>
+    <dimen name="categoryIconWidth">100dp</dimen>
+    <dimen name="categoryInnerMargin">20dp</dimen>
+    <dimen name="categoryInnerPadding">10dp</dimen>
+    <dimen name="categoryCornerRadius">10dp</dimen>
+    <dimen name="categoryContainerVerticalMargin">20dp</dimen>
+    <dimen name="defaultElevation">10dp</dimen>
+</resources>

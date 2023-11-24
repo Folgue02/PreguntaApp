@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/quizIcon"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/quiz_logo_2188367768" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/playButtonMargins"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="@dimen/playButtonMargins"
+            android:layout_marginBottom="@dimen/playButtonMargins"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/playButtonBackground"
+                app:cardCornerRadius="@dimen/playButtonCornerRadius"
+                android:id="@+id/playButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="@dimen/buttonIcon"
+                        android:layout_height="@dimen/buttonIcon"
+                        android:src="@drawable/play_button"/>
+
+                    <TextView
+                        android:textColor="@color/playButtonForeground"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/playButtonInnerMargin"
+                        android:textSize="30dp"
+                        android:text="@string/play" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/playButtonBackground"
+                app:cardCornerRadius="@dimen/playButtonCornerRadius"
+                android:layout_marginTop="@dimen/playButtonBetweenMargin"
+                android:layout_width="match_parent"
+                android:id="@+id/helpButton"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="@dimen/buttonIcon"
+                        android:layout_height="@dimen/buttonIcon"
+                        android:src="@drawable/help_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/playButtonForeground"
+                        android:layout_marginStart="@dimen/playButtonInnerMargin"
+                        android:textSize="30dp"
+                        android:text="@string/help"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PreguntaApp</string>
+    <string name="play">Jugar</string>
+    <string name="help">Ayuda</string>
+    <string name="help1">Elige una categoría</string>
+    <string name="help2">Cada categoría contiene diez preguntas</string>
+    <string name="help3">Responde a las preguntas (correctamente a poder ser)</string>
+    <string name="helpTitle">Ayuda</string>
+    <string name="helpSubtitle">A jugar!</string>
+    <string name="garfield">$SWAGarfield</string>
+    <string name="geography">Geography</string>
+    <string name="programming">Programming</string>
+    <string name="maths">Maths</string>
+    <string name="spongebob">$WAGpongebob</string>
+    <string name="writing">Writing test</string>
+</resources>

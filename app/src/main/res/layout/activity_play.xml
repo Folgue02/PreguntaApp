@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayActivity">
+    <ScrollView
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        android:layout_marginStart="@dimen/playMargin"
+        android:layout_marginEnd="@dimen/playMargin"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="@dimen/playContainerCornerRadius"
+            app:cardBackgroundColor="@color/playButtonBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginVertical="@dimen/categoryContainerVerticalMargin"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_marginHorizontal="@dimen/playContainerMargin"
+                    app:cardBackgroundColor="@color/playButtonBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            app:cardBackgroundColor="#fa8d3b"
+                            app:cardCornerRadius="@dimen/categoryCornerRadius"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="@dimen/categoryInnerPadding"
+                                android:layout_height="match_parent">
+                                <ImageView
+                                    android:layout_width="@dimen/categoryIconWidth"
+                                    android:layout_marginTop="@dimen/categoryInnerPadding"
+                                    android:layout_height="@dimen/categoryIconWidth"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/garfieldswag"/>
+
+                                <TextView
+                                    android:layout_marginTop="@dimen/categoryInnerMargin"
+                                    android:layout_width="match_parent"
+                                    android:textColor="@color/categoryFont"
+                                    android:text="@string/garfield"
+                                    android:textAlignment="center"
+                                    android:layout_height="wrap_content"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout> <!-- Category container -->
+
+                </androidx.cardview.widget.CardView> <!-- Category -->
+
+                <androidx.cardview.widget.CardView
+                    android:layout_marginHorizontal="@dimen/playContainerMargin"
+                    app:cardBackgroundColor="@color/playButtonBackground"
+                    android:layout_marginTop="@dimen/categoryContainerVerticalMargin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            app:cardBackgroundColor="#f081b4"
+                            app:cardCornerRadius="@dimen/categoryCornerRadius"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="@dimen/categoryInnerPadding"
+                                android:layout_height="match_parent">
+                                <ImageView
+                                    android:layout_width="@dimen/categoryIconWidth"
+                                    android:layout_marginTop="@dimen/categoryInnerPadding"
+                                    android:layout_height="@dimen/categoryIconWidth"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/geo"/>
+
+                                <TextView
+                                    android:layout_marginTop="@dimen/categoryInnerMargin"
+                                    android:layout_width="match_parent"
+                                    android:textColor="@color/categoryFont"
+                                    android:text="@string/geography"
+                                    android:textAlignment="center"
+                                    android:layout_height="wrap_content"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout> <!-- Category container -->
+
+                </androidx.cardview.widget.CardView> <!-- Category -->
+
+                <androidx.cardview.widget.CardView
+                    android:layout_marginHorizontal="@dimen/playContainerMargin"
+                    app:cardBackgroundColor="@color/playButtonBackground"
+                    android:layout_marginTop="@dimen/categoryContainerVerticalMargin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            app:cardBackgroundColor="#ff2d3e"
+                            app:cardCornerRadius="@dimen/categoryCornerRadius"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="@dimen/categoryInnerPadding"
+                                android:layout_height="match_parent">
+                                <ImageView
+                                    android:layout_width="@dimen/categoryIconWidth"
+                                    android:layout_marginTop="@dimen/categoryInnerPadding"
+                                    android:layout_height="@dimen/categoryIconWidth"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/programming"/>
+
+                                <TextView
+                                    android:layout_marginTop="@dimen/categoryInnerMargin"
+                                    android:layout_width="match_parent"
+                                    android:textColor="@color/categoryFont"
+                                    android:text="@string/programming"
+                                    android:textAlignment="center"
+                                    android:layout_height="wrap_content"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout> <!-- Category container -->
+
+                </androidx.cardview.widget.CardView> <!-- Category -->
+
+                <androidx.cardview.widget.CardView
+                    android:layout_marginHorizontal="@dimen/playContainerMargin"
+                    app:cardBackgroundColor="@color/playButtonBackground"
+                    android:layout_marginTop="@dimen/categoryContainerVerticalMargin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            app:cardBackgroundColor="@color/categoryBackground"
+                            app:cardCornerRadius="@dimen/categoryCornerRadius"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="@dimen/categoryInnerPadding"
+                                android:layout_height="match_parent">
+                                <ImageView
+                                    android:layout_width="@dimen/categoryIconWidth"
+                                    android:layout_marginTop="@dimen/categoryInnerPadding"
+                                    android:layout_height="@dimen/categoryIconWidth"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/spongebob_swag"/>
+
+                                <TextView
+                                    android:layout_marginTop="@dimen/categoryInnerMargin"
+                                    android:layout_width="match_parent"
+                                    android:textColor="@color/categoryFont"
+                                    android:text="@string/spongebob"
+                                    android:textAlignment="center"
+                                    android:layout_height="wrap_content"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout> <!-- Category container -->
+
+                </androidx.cardview.widget.CardView> <!-- Category -->
+                <androidx.cardview.widget.CardView
+                    android:layout_marginHorizontal="@dimen/playContainerMargin"
+                    app:cardBackgroundColor="#77bf56"
+                    android:layout_marginTop="@dimen/categoryContainerVerticalMargin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            app:cardBackgroundColor="#ff9ade"
+                            app:cardCornerRadius="@dimen/categoryCornerRadius"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="@dimen/categoryInnerPadding"
+                                android:layout_height="match_parent">
+                                <ImageView
+                                    android:layout_width="@dimen/categoryIconWidth"
+                                    android:layout_marginTop="@dimen/categoryInnerPadding"
+                                    android:layout_height="@dimen/categoryIconWidth"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/writing"/>
+
+                                <TextView
+                                    android:layout_marginTop="@dimen/categoryInnerMargin"
+                                    android:layout_width="match_parent"
+                                    android:textColor="@color/categoryFont"
+                                    android:text="@string/writing"
+                                    android:textAlignment="center"
+                                    android:layout_height="wrap_content"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout> <!-- Category container -->
+
+                </androidx.cardview.widget.CardView> <!-- Category -->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
